@@ -23,10 +23,10 @@ public class Test : MonoBehaviour
             Debug.Log(array[i]);
 
         }
-               
+
 
         // ”z—ñ—v‘f‚Ì‡”Ô‚ð”½“]‚³‚¹‚é
-        for (int i = array.Length - 1; i >= 0; i--)
+        for (int i = array.Length - 1; 0 <= i; i--)
         {
             Debug.Log(array[i]);
 
